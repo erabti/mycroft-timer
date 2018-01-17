@@ -44,7 +44,7 @@ def get_time_left_string(time_left, timer_name):
 
     speak_string = "There is "
     if days > 0:
-        time_string = "days" if days == 1 else "day"
+        time_string = "day" if days == 1 else "days"
         speak_string += "{} {} ".format(days, time_string)
     if hours > 0:
         time_string = "hour" if hours == 1 else "hours"
